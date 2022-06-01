@@ -1,0 +1,7 @@
+version: '3'
+
+services: 
+  sbomscanner:
+    build: ./
+    volumes:
+      - sbom_java:_ADP/sbom-dotnet
