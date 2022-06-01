@@ -1,0 +1,715 @@
+Component versions that have changed:
+
++ org.projectlombok lombok @ 1.18.22
+
++ org.springframework.boot spring-boot-starter-test @ 2.5.7
+
++ org.springframework.boot spring-boot-starter @ 2.5.7
+
++ org.springframework.boot spring-boot @ 2.5.7
+
++ org.springframework spring-context @ 5.3.13
+
++ org.springframework spring-expression @ 5.3.13
+
++ org.springframework.boot spring-boot-autoconfigure @ 2.5.7
+
++ org.springframework.boot spring-boot-starter-logging @ 2.5.7
+
++ org.springframework.boot spring-boot-test @ 2.5.7
+
++ org.springframework.boot spring-boot-test-autoconfigure @ 2.5.7
+
++ com.jayway.jsonpath json-path @ 2.5.0
+
++ org.ow2.asm asm @ 9.1
+
++ org.hamcrest hamcrest @ 2.2
+
++ org.junit.jupiter junit-jupiter @ 5.7.2
+
++ org.junit.jupiter junit-jupiter-api @ 5.7.2
+
++ org.apiguardian apiguardian-api @ 1.1.0
+
++ org.opentest4j opentest4j @ 1.2.0
+
++ org.junit.platform junit-platform-commons @ 1.7.2
+
++ org.junit.jupiter junit-jupiter-params @ 5.7.2
+
++ org.junit.jupiter junit-jupiter-engine @ 5.7.2
+
++ org.junit.platform junit-platform-engine @ 1.7.2
+
++ org.mockito mockito-core @ 3.9.0
+
++ org.objenesis objenesis @ 3.2
+
++ org.mockito mockito-junit-jupiter @ 3.9.0
+
++ com.vaadin.external.google android-json @ 0.0.20131108.vaadin1
+
++ org.springframework spring-core @ 5.3.13
+
++ org.springframework spring-jcl @ 5.3.13
+
++ org.springframework spring-test @ 5.3.13
+
++ org.bouncycastle bcpkix-jdk15on @ 1.68
+
++ org.bouncycastle bcprov-jdk15on @ 1.68
+
++ org.springframework.boot spring-boot-starter-aop @ 2.5.7
+
++ org.springframework spring-aop @ 5.3.13
+
++ org.aspectj aspectjweaver @ 1.9.7
+
++ org.springframework spring-web @ 5.3.13
+
++ org.springframework spring-beans @ 5.3.13
+
++ org.springframework.security spring-security-crypto @ 5.5.3
+
++ org.springframework.boot spring-boot-starter-amqp @ 2.5.7
+
++ org.springframework spring-messaging @ 5.3.13
+
++ org.springframework.amqp spring-rabbit @ 2.3.12
+
++ org.springframework.amqp spring-amqp @ 2.3.12
+
++ org.springframework spring-tx @ 5.3.13
+
++ org.springframework.boot spring-boot-starter-web @ 2.5.7
+
++ org.springframework.boot spring-boot-starter-json @ 2.5.7
+
++ org.springframework.boot spring-boot-starter-tomcat @ 2.5.7
+
++ org.apache.tomcat.embed tomcat-embed-core @ 9.0.55
+
++ org.apache.tomcat.embed tomcat-embed-el @ 9.0.55
+
++ org.apache.tomcat.embed tomcat-embed-websocket @ 9.0.55
+
++ org.springframework spring-webmvc @ 5.3.13
+
++ org.springframework.boot spring-boot-starter-data-jpa @ 2.5.7
+
++ org.springframework.boot spring-boot-starter-jdbc @ 2.5.7
+
++ org.springframework spring-jdbc @ 5.3.13
+
++ org.hibernate hibernate-core @ 5.4.32.Final
+
++ antlr antlr @ 2.7.7
+
++ org.dom4j dom4j @ 2.1.3
+
++ org.hibernate.common hibernate-commons-annotations @ 5.1.2.Final
+
++ org.springframework spring-orm @ 5.3.13
+
++ org.springframework spring-aspects @ 5.3.13
+
++ org.postgresql postgresql @ 42.2.24
+
++ org.checkerframework checker-qual @ 3.5.0
+
++ com.netflix.eureka eureka-client @ 1.10.14
+
++ com.netflix.netflix-commons netflix-eventbus @ 0.3.0
+
++ com.netflix.netflix-commons netflix-infix @ 0.3.0
+
++ xmlpull xmlpull @ 1.1.3.1
+
++ com.netflix.servo servo-core @ 0.12.21
+
++ com.google.inject guice @ 4.1.0
+
++ javax.inject javax.inject @ 1
+
++ aopalliance aopalliance @ 1.0
+
++ com.netflix.eureka eureka-core @ 1.10.14
+
++ org.springframework.boot spring-boot-starter-validation @ 2.5.7
+
++ io.projectreactor reactor-core @ 3.4.12
+
++ org.reactivestreams reactive-streams @ 1.0.3
+
++ io.projectreactor.addons reactor-extra @ 3.4.5
+
++ org.springframework.boot spring-boot-starter-cache @ 2.5.7
+
++ org.springframework spring-context-support @ 5.3.13
+
++ org.aspectj aspectjrt @ 1.9.7
+
++ io.zipkin.brave brave @ 5.13.2
+
++ io.zipkin.brave brave-context-slf4j @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-messaging @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-rpc @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-spring-rabbit @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-kafka-clients @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-kafka-streams @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-httpclient @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-http @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-httpasyncclient @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-jms @ 5.13.2
+
++ io.zipkin.brave brave-instrumentation-mongodb @ 5.13.2
+
++ io.zipkin.reporter2 zipkin-reporter-metrics-micrometer @ 2.16.1
+
++ io.zipkin.zipkin2 zipkin @ 2.23.0
+
++ io.zipkin.reporter2 zipkin-reporter @ 2.16.1
+
++ io.zipkin.reporter2 zipkin-reporter-brave @ 2.16.1
+
++ io.zipkin.reporter2 zipkin-sender-kafka @ 2.16.1
+
++ io.zipkin.reporter2 zipkin-sender-activemq-client @ 2.16.1
+
++ io.zipkin.reporter2 zipkin-sender-amqp-client @ 2.16.1
+
++ org.springframework.boot spring-boot-starter-actuator @ 2.5.7
+
++ org.springframework.boot spring-boot-actuator-autoconfigure @ 2.5.7
+
++ org.springframework.boot spring-boot-actuator @ 2.5.7
+
++ io.micrometer micrometer-core @ 1.7.6
+
++ org.springframework.boot spring-boot-starter-freemarker @ 2.5.7
+
++ org.freemarker freemarker @ 2.3.31
+
++ org.springframework.boot spring-boot-starter-webflux @ 2.5.7
+
++ org.springframework.boot spring-boot-starter-reactor-netty @ 2.5.7
+
++ io.projectreactor.netty reactor-netty-http @ 1.0.13
+
++ io.projectreactor.netty reactor-netty-core @ 1.0.13
+
++ org.springframework spring-webflux @ 5.3.13
+
+-  android-json @ 0.0.20131108.vaadin1
+-  android-json @ 0.0.20131108.vaadin1
+-  android-json @ 0.0.20131108.vaadin1
+-  android-json @ 0.0.20131108.vaadin1
+-  android-json @ 0.0.20131108.vaadin1
+
+-  antlr @ 2.7.7
+-  antlr @ 2.7.7
+-  antlr @ 2.7.7
+-  antlr @ 2.7.7
+-  antlr @ 2.7.7
+
+-  aopalliance @ 1.0
+-  aopalliance @ 1.0
+-  aopalliance @ 1.0
+-  aopalliance @ 1.0
+-  aopalliance @ 1.0
+
+-  apiguardian-api @ 1.1.0
+-  apiguardian-api @ 1.1.0
+-  apiguardian-api @ 1.1.0
+-  apiguardian-api @ 1.1.0
+-  apiguardian-api @ 1.1.0
+
+-  asm @ 9.1
+-  asm @ 9.1
+-  asm @ 9.1
+-  asm @ 9.1
+-  asm @ 9.1
+
+-  aspectjrt @ 1.9.7
+-  aspectjrt @ 1.9.7
+-  aspectjrt @ 1.9.7
+-  aspectjrt @ 1.9.7
+-  aspectjrt @ 1.9.7
+
+-  aspectjweaver @ 1.9.7
+-  aspectjweaver @ 1.9.7
+-  aspectjweaver @ 1.9.7
+-  aspectjweaver @ 1.9.7
+-  aspectjweaver @ 1.9.7
+
+-  bcpkix-jdk15on @ 1.68
+-  bcpkix-jdk15on @ 1.68
+-  bcpkix-jdk15on @ 1.68
+-  bcpkix-jdk15on @ 1.68
+-  bcpkix-jdk15on @ 1.68
+
+-  bcprov-jdk15on @ 1.68
+-  bcprov-jdk15on @ 1.68
+-  bcprov-jdk15on @ 1.68
+-  bcprov-jdk15on @ 1.68
+-  bcprov-jdk15on @ 1.68
+
+-  brave @ 5.13.2
+-  brave @ 5.13.2
+-  brave @ 5.13.2
+-  brave @ 5.13.2
+-  brave @ 5.13.2
+
+-  brave-context-slf4j @ 5.13.2
+-  brave-context-slf4j @ 5.13.2
+-  brave-context-slf4j @ 5.13.2
+-  brave-context-slf4j @ 5.13.2
+-  brave-context-slf4j @ 5.13.2
+
+-  brave-instrumentation-http @ 5.13.2
+-  brave-instrumentation-http @ 5.13.2
+-  brave-instrumentation-http @ 5.13.2
+-  brave-instrumentation-http @ 5.13.2
+-  brave-instrumentation-http @ 5.13.2
+
+-  brave-instrumentation-httpasyncclient @ 5.13.2
+-  brave-instrumentation-httpasyncclient @ 5.13.2
+-  brave-instrumentation-httpasyncclient @ 5.13.2
+-  brave-instrumentation-httpasyncclient @ 5.13.2
+-  brave-instrumentation-httpasyncclient @ 5.13.2
+
+-  brave-instrumentation-httpclient @ 5.13.2
+-  brave-instrumentation-httpclient @ 5.13.2
+-  brave-instrumentation-httpclient @ 5.13.2
+-  brave-instrumentation-httpclient @ 5.13.2
+-  brave-instrumentation-httpclient @ 5.13.2
+
+-  brave-instrumentation-jms @ 5.13.2
+-  brave-instrumentation-jms @ 5.13.2
+-  brave-instrumentation-jms @ 5.13.2
+-  brave-instrumentation-jms @ 5.13.2
+-  brave-instrumentation-jms @ 5.13.2
+
+-  brave-instrumentation-kafka-clients @ 5.13.2
+-  brave-instrumentation-kafka-clients @ 5.13.2
+-  brave-instrumentation-kafka-clients @ 5.13.2
+-  brave-instrumentation-kafka-clients @ 5.13.2
+-  brave-instrumentation-kafka-clients @ 5.13.2
+
+-  brave-instrumentation-kafka-streams @ 5.13.2
+-  brave-instrumentation-kafka-streams @ 5.13.2
+-  brave-instrumentation-kafka-streams @ 5.13.2
+-  brave-instrumentation-kafka-streams @ 5.13.2
+-  brave-instrumentation-kafka-streams @ 5.13.2
+
+-  brave-instrumentation-messaging @ 5.13.2
+-  brave-instrumentation-messaging @ 5.13.2
+-  brave-instrumentation-messaging @ 5.13.2
+-  brave-instrumentation-messaging @ 5.13.2
+-  brave-instrumentation-messaging @ 5.13.2
+
+-  brave-instrumentation-mongodb @ 5.13.2
+-  brave-instrumentation-mongodb @ 5.13.2
+-  brave-instrumentation-mongodb @ 5.13.2
+-  brave-instrumentation-mongodb @ 5.13.2
+-  brave-instrumentation-mongodb @ 5.13.2
+
+-  brave-instrumentation-rpc @ 5.13.2
+-  brave-instrumentation-rpc @ 5.13.2
+-  brave-instrumentation-rpc @ 5.13.2
+-  brave-instrumentation-rpc @ 5.13.2
+-  brave-instrumentation-rpc @ 5.13.2
+
+-  brave-instrumentation-spring-rabbit @ 5.13.2
+-  brave-instrumentation-spring-rabbit @ 5.13.2
+-  brave-instrumentation-spring-rabbit @ 5.13.2
+-  brave-instrumentation-spring-rabbit @ 5.13.2
+-  brave-instrumentation-spring-rabbit @ 5.13.2
+
+- net.bytebuddy byte-buddy-dep @ 1.10.22
+- net.bytebuddy byte-buddy-dep @ 1.10.22
+- net.bytebuddy byte-buddy-dep @ 1.10.22
+- net.bytebuddy byte-buddy-dep @ 1.10.22
+- net.bytebuddy byte-buddy-dep @ 1.10.22
+
+- cglib cglib @ 3.2.0
+- cglib cglib @ 3.2.0
+- cglib cglib @ 3.2.0
+- cglib cglib @ 3.2.0
+- cglib cglib @ 3.2.0
+
+-  checker-qual @ 3.5.0
+-  checker-qual @ 3.5.0
+-  checker-qual @ 3.5.0
+
+-  dom4j @ 2.1.3
+-  dom4j @ 2.1.3
+-  dom4j @ 2.1.3
+
+-  eureka-client @ 1.10.14
+-  eureka-client @ 1.10.14
+-  eureka-client @ 1.10.14
+-  eureka-client @ 1.10.14
+-  eureka-client @ 1.10.14
+
+-  eureka-core @ 1.10.14
+-  eureka-core @ 1.10.14
+-  eureka-core @ 1.10.14
+-  eureka-core @ 1.10.14
+-  eureka-core @ 1.10.14
+
+-  freemarker @ 2.3.31
+
+-  guice @ 4.1.0
+-  guice @ 4.1.0
+-  guice @ 4.1.0
+-  guice @ 4.1.0
+-  guice @ 4.1.0
+
+-  hamcrest @ 2.2
+-  hamcrest @ 2.2
+-  hamcrest @ 2.2
+-  hamcrest @ 2.2
+-  hamcrest @ 2.2
+
+-  hibernate-commons-annotations @ 5.1.2.Final
+-  hibernate-commons-annotations @ 5.1.2.Final
+-  hibernate-commons-annotations @ 5.1.2.Final
+
+-  hibernate-core @ 5.4.32.Final
+-  hibernate-core @ 5.4.32.Final
+-  hibernate-core @ 5.4.32.Final
+
+- com.sun.xml.bind.jaxb isorelax @ 20090621
+- com.sun.xml.bind.jaxb isorelax @ 20090621
+- com.sun.xml.bind.jaxb isorelax @ 20090621
+- com.sun.xml.bind.jaxb isorelax @ 20090621
+- com.sun.xml.bind.jaxb isorelax @ 20090621
+
+- org.jctools jctools-core @ 3.1.0
+
+-  json-path @ 2.5.0
+-  json-path @ 2.5.0
+-  json-path @ 2.5.0
+-  json-path @ 2.5.0
+-  json-path @ 2.5.0
+
+-  junit-jupiter @ 5.7.2
+-  junit-jupiter @ 5.7.2
+-  junit-jupiter @ 5.7.2
+-  junit-jupiter @ 5.7.2
+-  junit-jupiter @ 5.7.2
+
+-  junit-jupiter-api @ 5.7.2
+-  junit-jupiter-api @ 5.7.2
+-  junit-jupiter-api @ 5.7.2
+-  junit-jupiter-api @ 5.7.2
+-  junit-jupiter-api @ 5.7.2
+
+-  junit-jupiter-engine @ 5.7.2
+-  junit-jupiter-engine @ 5.7.2
+-  junit-jupiter-engine @ 5.7.2
+-  junit-jupiter-engine @ 5.7.2
+-  junit-jupiter-engine @ 5.7.2
+
+-  junit-jupiter-params @ 5.7.2
+-  junit-jupiter-params @ 5.7.2
+-  junit-jupiter-params @ 5.7.2
+-  junit-jupiter-params @ 5.7.2
+-  junit-jupiter-params @ 5.7.2
+
+-  junit-platform-commons @ 1.7.2
+-  junit-platform-commons @ 1.7.2
+-  junit-platform-commons @ 1.7.2
+-  junit-platform-commons @ 1.7.2
+-  junit-platform-commons @ 1.7.2
+
+-  junit-platform-engine @ 1.7.2
+-  junit-platform-engine @ 1.7.2
+-  junit-platform-engine @ 1.7.2
+-  junit-platform-engine @ 1.7.2
+-  junit-platform-engine @ 1.7.2
+
+-  lombok @ 1.18.22
+-  lombok @ 1.18.22
+-  lombok @ 1.18.22
+-  lombok @ 1.18.22
+-  lombok @ 1.18.22
+
+-  micrometer-core @ 1.7.6
+
+-  mockito-core @ 3.9.0
+-  mockito-core @ 3.9.0
+-  mockito-core @ 3.9.0
+-  mockito-core @ 3.9.0
+-  mockito-core @ 3.9.0
+
+-  mockito-junit-jupiter @ 3.9.0
+-  mockito-junit-jupiter @ 3.9.0
+-  mockito-junit-jupiter @ 3.9.0
+-  mockito-junit-jupiter @ 3.9.0
+-  mockito-junit-jupiter @ 3.9.0
+
+-  netflix-eventbus @ 0.3.0
+-  netflix-eventbus @ 0.3.0
+-  netflix-eventbus @ 0.3.0
+-  netflix-eventbus @ 0.3.0
+-  netflix-eventbus @ 0.3.0
+
+-  netflix-infix @ 0.3.0
+-  netflix-infix @ 0.3.0
+-  netflix-infix @ 0.3.0
+-  netflix-infix @ 0.3.0
+-  netflix-infix @ 0.3.0
+
+-  objenesis @ 3.2
+-  objenesis @ 3.2
+-  objenesis @ 3.2
+-  objenesis @ 3.2
+-  objenesis @ 3.2
+
+-  opentest4j @ 1.2.0
+-  opentest4j @ 1.2.0
+-  opentest4j @ 1.2.0
+-  opentest4j @ 1.2.0
+-  opentest4j @ 1.2.0
+
+-  postgresql @ 42.2.24
+-  postgresql @ 42.2.24
+-  postgresql @ 42.2.24
+
+-  reactive-streams @ 1.0.3
+-  reactive-streams @ 1.0.3
+-  reactive-streams @ 1.0.3
+-  reactive-streams @ 1.0.3
+-  reactive-streams @ 1.0.3
+
+-  reactor-core @ 3.4.12
+-  reactor-core @ 3.4.12
+-  reactor-core @ 3.4.12
+-  reactor-core @ 3.4.12
+-  reactor-core @ 3.4.12
+
+-  reactor-extra @ 3.4.5
+-  reactor-extra @ 3.4.5
+-  reactor-extra @ 3.4.5
+-  reactor-extra @ 3.4.5
+-  reactor-extra @ 3.4.5
+
+-  reactor-netty-core @ 1.0.13
+
+-  reactor-netty-http @ 1.0.13
+
+-  servo-core @ 0.12.21
+-  servo-core @ 0.12.21
+-  servo-core @ 0.12.21
+-  servo-core @ 0.12.21
+-  servo-core @ 0.12.21
+
+-  spring-amqp @ 2.3.12
+-  spring-amqp @ 2.3.12
+
+-  spring-aop @ 5.3.13
+-  spring-aop @ 5.3.13
+-  spring-aop @ 5.3.13
+-  spring-aop @ 5.3.13
+-  spring-aop @ 5.3.13
+
+-  spring-aspects @ 5.3.13
+-  spring-aspects @ 5.3.13
+-  spring-aspects @ 5.3.13
+
+-  spring-beans @ 5.3.13
+-  spring-beans @ 5.3.13
+-  spring-beans @ 5.3.13
+-  spring-beans @ 5.3.13
+-  spring-beans @ 5.3.13
+
+-  spring-boot @ 2.5.7
+-  spring-boot @ 2.5.7
+-  spring-boot @ 2.5.7
+-  spring-boot @ 2.5.7
+-  spring-boot @ 2.5.7
+
+-  spring-boot-actuator @ 2.5.7
+
+-  spring-boot-actuator-autoconfigure @ 2.5.7
+
+-  spring-boot-autoconfigure @ 2.5.7
+-  spring-boot-autoconfigure @ 2.5.7
+-  spring-boot-autoconfigure @ 2.5.7
+-  spring-boot-autoconfigure @ 2.5.7
+-  spring-boot-autoconfigure @ 2.5.7
+
+-  spring-boot-jarmode-layertools @ 2.5.7
+-  spring-boot-jarmode-layertools @ 2.5.7
+-  spring-boot-jarmode-layertools @ 2.5.7
+-  spring-boot-jarmode-layertools @ 2.5.7
+-  spring-boot-jarmode-layertools @ 2.5.7
+
+-  spring-boot-test @ 2.5.7
+-  spring-boot-test @ 2.5.7
+-  spring-boot-test @ 2.5.7
+-  spring-boot-test @ 2.5.7
+-  spring-boot-test @ 2.5.7
+
+-  spring-boot-test-autoconfigure @ 2.5.7
+-  spring-boot-test-autoconfigure @ 2.5.7
+-  spring-boot-test-autoconfigure @ 2.5.7
+-  spring-boot-test-autoconfigure @ 2.5.7
+-  spring-boot-test-autoconfigure @ 2.5.7
+
+-  spring-context @ 5.3.13
+-  spring-context @ 5.3.13
+-  spring-context @ 5.3.13
+-  spring-context @ 5.3.13
+-  spring-context @ 5.3.13
+
+-  spring-context-support @ 5.3.13
+-  spring-context-support @ 5.3.13
+-  spring-context-support @ 5.3.13
+-  spring-context-support @ 5.3.13
+-  spring-context-support @ 5.3.13
+
+-  spring-core @ 5.3.13
+-  spring-core @ 5.3.13
+-  spring-core @ 5.3.13
+-  spring-core @ 5.3.13
+-  spring-core @ 5.3.13
+
+-  spring-expression @ 5.3.13
+-  spring-expression @ 5.3.13
+-  spring-expression @ 5.3.13
+-  spring-expression @ 5.3.13
+-  spring-expression @ 5.3.13
+
+-  spring-jcl @ 5.3.13
+-  spring-jcl @ 5.3.13
+-  spring-jcl @ 5.3.13
+-  spring-jcl @ 5.3.13
+-  spring-jcl @ 5.3.13
+
+-  spring-jdbc @ 5.3.13
+-  spring-jdbc @ 5.3.13
+-  spring-jdbc @ 5.3.13
+
+-  spring-messaging @ 5.3.13
+-  spring-messaging @ 5.3.13
+
+-  spring-orm @ 5.3.13
+-  spring-orm @ 5.3.13
+-  spring-orm @ 5.3.13
+
+-  spring-rabbit @ 2.3.12
+-  spring-rabbit @ 2.3.12
+
+-  spring-security-crypto @ 5.5.3
+-  spring-security-crypto @ 5.5.3
+-  spring-security-crypto @ 5.5.3
+-  spring-security-crypto @ 5.5.3
+-  spring-security-crypto @ 5.5.3
+
+-  spring-test @ 5.3.13
+-  spring-test @ 5.3.13
+-  spring-test @ 5.3.13
+-  spring-test @ 5.3.13
+-  spring-test @ 5.3.13
+
+-  spring-tx @ 5.3.13
+-  spring-tx @ 5.3.13
+-  spring-tx @ 5.3.13
+
+-  spring-web @ 5.3.13
+-  spring-web @ 5.3.13
+-  spring-web @ 5.3.13
+-  spring-web @ 5.3.13
+-  spring-web @ 5.3.13
+
+-  spring-webflux @ 5.3.13
+
+-  spring-webmvc @ 5.3.13
+-  spring-webmvc @ 5.3.13
+-  spring-webmvc @ 5.3.13
+-  spring-webmvc @ 5.3.13
+
+-  tomcat-embed-core @ 9.0.55
+-  tomcat-embed-core @ 9.0.55
+-  tomcat-embed-core @ 9.0.55
+-  tomcat-embed-core @ 9.0.55
+
+-  tomcat-embed-el @ 9.0.55
+-  tomcat-embed-el @ 9.0.55
+-  tomcat-embed-el @ 9.0.55
+-  tomcat-embed-el @ 9.0.55
+-  tomcat-embed-el @ 9.0.55
+
+-  tomcat-embed-websocket @ 9.0.55
+-  tomcat-embed-websocket @ 9.0.55
+-  tomcat-embed-websocket @ 9.0.55
+-  tomcat-embed-websocket @ 9.0.55
+
+-  xmlpull @ 1.1.3.1
+-  xmlpull @ 1.1.3.1
+-  xmlpull @ 1.1.3.1
+-  xmlpull @ 1.1.3.1
+-  xmlpull @ 1.1.3.1
+
+- net.java.dev.msv xsdlib @ 2013.6.1
+- net.java.dev.msv xsdlib @ 2013.6.1
+- net.java.dev.msv xsdlib @ 2013.6.1
+- net.java.dev.msv xsdlib @ 2013.6.1
+- net.java.dev.msv xsdlib @ 2013.6.1
+
+-  zipkin @ 2.23.0
+-  zipkin @ 2.23.0
+-  zipkin @ 2.23.0
+-  zipkin @ 2.23.0
+-  zipkin @ 2.23.0
+
+-  zipkin-reporter @ 2.16.1
+-  zipkin-reporter @ 2.16.1
+-  zipkin-reporter @ 2.16.1
+-  zipkin-reporter @ 2.16.1
+-  zipkin-reporter @ 2.16.1
+
+-  zipkin-reporter-brave @ 2.16.1
+-  zipkin-reporter-brave @ 2.16.1
+-  zipkin-reporter-brave @ 2.16.1
+-  zipkin-reporter-brave @ 2.16.1
+-  zipkin-reporter-brave @ 2.16.1
+
+-  zipkin-reporter-metrics-micrometer @ 2.16.1
+-  zipkin-reporter-metrics-micrometer @ 2.16.1
+-  zipkin-reporter-metrics-micrometer @ 2.16.1
+-  zipkin-reporter-metrics-micrometer @ 2.16.1
+-  zipkin-reporter-metrics-micrometer @ 2.16.1
+
+-  zipkin-sender-activemq-client @ 2.16.1
+-  zipkin-sender-activemq-client @ 2.16.1
+-  zipkin-sender-activemq-client @ 2.16.1
+-  zipkin-sender-activemq-client @ 2.16.1
+-  zipkin-sender-activemq-client @ 2.16.1
+
+-  zipkin-sender-amqp-client @ 2.16.1
+-  zipkin-sender-amqp-client @ 2.16.1
+-  zipkin-sender-amqp-client @ 2.16.1
+-  zipkin-sender-amqp-client @ 2.16.1
+-  zipkin-sender-amqp-client @ 2.16.1
+
+-  zipkin-sender-kafka @ 2.16.1
+-  zipkin-sender-kafka @ 2.16.1
+-  zipkin-sender-kafka @ 2.16.1
+-  zipkin-sender-kafka @ 2.16.1
+-  zipkin-sender-kafka @ 2.16.1
+
+

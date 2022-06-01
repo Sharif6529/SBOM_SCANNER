@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:983f6f74-967b-4775-8ddb-79b0f4efa280" version="1">
+  <metadata>
+    <timestamp>2022-05-31T21:20:00Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>0.46.2</version>
+      </tool>
+    </tools>
+    <component bom-ref="92d7d5442bc40e1b" type="file">
+      <name>TechXueXi/</name>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:pypi/flask@2.1.0?package-id=15ffbaa3d1cac67f" type="library">
+      <name>Flask</name>
+      <version>2.1.0</version>
+      <cpe>cpe:2.3:a:python-Flask:python-Flask:2.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/Flask@2.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:python_Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python-Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python_Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python-Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python_Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:Flask:2.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/flask-cors@3.0.9?package-id=285d6faffaae3d18" type="library">
+      <name>Flask_Cors</name>
+      <version>3.0.9</version>
+      <cpe>cpe:2.3:a:python-Flask-Cors:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/Flask_Cors@3.0.9</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-Cors:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-Cors:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_Cors:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_Cors:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_Cors:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_Cors:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_Cors:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_Cors:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-Cors:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-Cors:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-Cors:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_Cors:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_Cors:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_Cors:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-Cors:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-Cors:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_Cors:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_Cors:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_Cors:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_Cors:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python-Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python-Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python_Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-Cors:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-Cors:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_Cors:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_Cors:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:Flask-Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:Flask_Cors:3.0.9:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/flask-sqlalchemy@2.5.1?package-id=309e1c58f476a8b" type="library">
+      <name>Flask_SQLAlchemy</name>
+      <version>2.5.1</version>
+      <cpe>cpe:2.3:a:python-Flask-SQLAlchemy:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/Flask_SQLAlchemy@2.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-SQLAlchemy:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-SQLAlchemy:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_SQLAlchemy:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_SQLAlchemy:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_SQLAlchemy:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_SQLAlchemy:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_SQLAlchemy:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_SQLAlchemy:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-SQLAlchemy:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-SQLAlchemy:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-SQLAlchemy:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_SQLAlchemy:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_SQLAlchemy:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_SQLAlchemy:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-SQLAlchemy:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask-SQLAlchemy:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_SQLAlchemy:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask_SQLAlchemy:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_SQLAlchemy:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask_SQLAlchemy:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-SQLAlchemy:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask-SQLAlchemy:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_SQLAlchemy:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask_SQLAlchemy:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python-Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python-Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:python_Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-Flask:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_Flask:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:Flask-SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:Flask:Flask_SQLAlchemy:2.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pysocks@1.7.1?package-id=c3fc7d702919cd53" type="library">
+      <name>PySocks</name>
+      <version>1.7.1</version>
+      <cpe>cpe:2.3:a:python-PySocks:python-PySocks:1.7.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/PySocks@1.7.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-PySocks:python_PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_PySocks:python-PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_PySocks:python_PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:PySocks:python-PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:PySocks:python_PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-PySocks:PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_PySocks:PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:PySocks:PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:PySocks:1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/beautifulsoup4@4.9.3?package-id=26ba5d0a54b13d0" type="library">
+      <name>beautifulsoup4</name>
+      <version>4.9.3</version>
+      <cpe>cpe:2.3:a:python-beautifulsoup4:python-beautifulsoup4:4.9.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/beautifulsoup4@4.9.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-beautifulsoup4:python_beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_beautifulsoup4:python-beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_beautifulsoup4:python_beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:beautifulsoup4:python-beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:beautifulsoup4:python_beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-beautifulsoup4:beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_beautifulsoup4:beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:beautifulsoup4:beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:beautifulsoup4:4.9.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/colorama@0.4.1?package-id=1de9777bff86a78e" type="library">
+      <name>colorama</name>
+      <version>0.4.1</version>
+      <cpe>cpe:2.3:a:python-colorama:python-colorama:0.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/colorama@0.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-colorama:python_colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_colorama:python-colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_colorama:python_colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:colorama:python-colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:colorama:python_colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-colorama:colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_colorama:colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:colorama:colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:colorama:0.4.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/gunicorn@20.1.0?package-id=59ba0a65e72a7433" type="library">
+      <name>gunicorn</name>
+      <version>20.1.0</version>
+      <cpe>cpe:2.3:a:python-gunicorn:python-gunicorn:20.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/gunicorn@20.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-gunicorn:python_gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_gunicorn:python-gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_gunicorn:python_gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gunicorn:python-gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gunicorn:python_gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-gunicorn:gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_gunicorn:gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gunicorn:gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:gunicorn:20.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/itsdangerous@2.0.1?package-id=51c218d26565b1a3" type="library">
+      <name>itsdangerous</name>
+      <version>2.0.1</version>
+      <cpe>cpe:2.3:a:python-itsdangerous:python-itsdangerous:2.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/itsdangerous@2.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-itsdangerous:python_itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_itsdangerous:python-itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_itsdangerous:python_itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:itsdangerous:python-itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:itsdangerous:python_itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-itsdangerous:itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_itsdangerous:itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:itsdangerous:itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:itsdangerous:2.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/lxml@4.6.5?package-id=c21976604555e9ea" type="library">
+      <name>lxml</name>
+      <version>4.6.5</version>
+      <cpe>cpe:2.3:a:python-lxml:python-lxml:4.6.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/lxml@4.6.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-lxml:python_lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_lxml:python-lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_lxml:python_lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:lxml:python-lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:lxml:python_lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-lxml:lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_lxml:lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:lxml:lxml:4.6.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pytelegrambotapi@4.0.1?package-id=bcda2881f8f596c1" type="library">
+      <name>pyTelegramBotAPI</name>
+      <version>4.0.1</version>
+      <cpe>cpe:2.3:a:python-pyTelegramBotAPI:python-pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/pyTelegramBotAPI@4.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyTelegramBotAPI:python_pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyTelegramBotAPI:python-pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyTelegramBotAPI:python_pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyTelegramBotAPI:python-pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyTelegramBotAPI:python_pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyTelegramBotAPI:pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyTelegramBotAPI:pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyTelegramBotAPI:pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pyTelegramBotAPI:4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pyhocon@0.3.58?package-id=1ac42688c1f22212" type="library">
+      <name>pyhocon</name>
+      <version>0.3.58</version>
+      <cpe>cpe:2.3:a:python-pyhocon:python-pyhocon:0.3.58:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/pyhocon@0.3.58</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyhocon:python_pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyhocon:python-pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyhocon:python_pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyhocon:python-pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyhocon:python_pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyhocon:pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyhocon:pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyhocon:pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pyhocon:0.3.58:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pyzbar@0.1.8?package-id=de42763dd2261449" type="library">
+      <name>pyzbar</name>
+      <version>0.1.8</version>
+      <cpe>cpe:2.3:a:python-pyzbar:python-pyzbar:0.1.8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/pyzbar@0.1.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyzbar:python_pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyzbar:python-pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyzbar:python_pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyzbar:pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyzbar:pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyzbar:python-pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyzbar:python_pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyzbar:pyzbar:0.1.8:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/requests@2.26.0?package-id=12c163c666578b23" type="library">
+      <name>requests</name>
+      <version>2.26.0</version>
+      <cpe>cpe:2.3:a:python-requests:python-requests:2.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/requests@2.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:python_requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:python-requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:python_requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:python-requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:python_requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:requests:2.26.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/selenium@3.141.0?package-id=eccdafbde7748745" type="library">
+      <name>selenium</name>
+      <version>3.141.0</version>
+      <cpe>cpe:2.3:a:python-selenium:python-selenium:3.141.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/selenium@3.141.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-selenium:python_selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_selenium:python-selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_selenium:python_selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-selenium:selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_selenium:selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:selenium:python-selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:selenium:python_selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:selenium:selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:selenium:3.141.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/urllib3@1.26.7?package-id=5e7752bab378f71" type="library">
+      <name>urllib3</name>
+      <version>1.26.7</version>
+      <cpe>cpe:2.3:a:python-urllib3:python-urllib3:1.26.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/urllib3@1.26.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-index-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-urllib3:python_urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_urllib3:python-urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_urllib3:python_urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-urllib3:urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_urllib3:urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:urllib3:python-urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:urllib3:python_urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:urllib3:urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:urllib3:1.26.7:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:path">requirements.txt</property>
+      </properties>
+    </component>
+  </components>
+</bom>
