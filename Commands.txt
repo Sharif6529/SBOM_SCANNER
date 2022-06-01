@@ -810,3 +810,25 @@ docker cp 8d0e098f32ee:/python C:/Users/16096/OneDrive/Desktop/ADP/_ADP/sbom-pyt
 DOTNET
 docker run -it --name dotnet_src --mount source=sbom_dotnet,target=/sbom_dotnet dotnet_src
 dotnet CycloneDX /dotnet/project-system -o /dotnet/
+
+
+dotnet CycloneDX /dotnet/dotnet/Dapper -o /dotnet/
+
+
+DotNET: 
+   57  dotnet CycloneDX Dapper.sln -o /dotnet/
+   58  cd Dapper/
+   59  dotnet CycloneDX Dapper.sln -o /dotnet/
+   60  ls
+   61  cd ..
+   62  ls
+   63  cat bom.xml
+   64  syft Dapper/
+   65  syft /root/.nuget/packages/
+   66  dotnet CycloneDX Dapper/Dapper.csproj -o /dotnet/ -r
+   67  dotnet CycloneDX Dapper/Build.csproj -o /dotnet/ -r
+   68  ls
+   69  cat bom.xml
+   70  syft /dotnet/
+   71  history
+
